@@ -90,7 +90,7 @@ Evidence: Citations?
 
 ##References
 
-<b id="F11SCWG">FORCE11 Software Citation Working Group</b> FORCE11 Software Citation Working Group, GitHub repository, https: //github.com/force11/force11-scwg. Accessed: 2016-07-10. [↩](#F11SCWG-footnote)
+<b id="F11SCWG">FORCE11 Software Citation Working Group</b> FORCE11 Software Citation Working Group, GitHub repository, https://github.com/force11/force11-scwg. Accessed: 2016-07-10. [↩](#F11SCWG-footnote)
 
 <b id="F11SCWG-web">Smith et al. 2016a</b> A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
 Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10. [↩](#F11SCWG-web-footnote)
