@@ -10,12 +10,8 @@ Add yourself here
 
 This repostory is intended to be used to discuss and document the difference between software and data in the context of citation.
 
-It has been created in the process of writing the FORCE11 Software Citation Principles
-[A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
-Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10.
-FORCE11 Software Citation Working Group, GitHub repository, https: //github.com/force11/force11-scwg. Accessed: 2016-07-10.]
-and then submitting them to PeerJ Computer Science
-[A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Preprints 4:e2169v3, 2016. https://doi.org/10.7287/peerj.preprints.2169v3]
+It has been created in the process of writing the FORCE11 Software Citation Principles<sup id="F11SCWG-web-footnote">[Smith et al. 2016a](#F11SCWG-web)</sup><sup>,</sup><sup id="F11SCWG-footnote">[FORCE11 Software Citation Working Group](#F11SCWG)</sup>
+and then submitting them to PeerJ Computer Science<sup id="F11SCWG-PeerJCSpreprint-footnote">[Smith et al. 2016b](#F11SCWG-PeerJCSpreprint)</sup>
 and responding to reviewer comments.
 
 We start with the idea that software, while similar to data in terms of not traditionally having been cited in publications, is also different than data.  Software can be considered a type of data, but the converse is not generally true. 
@@ -91,3 +87,11 @@ Evidence: Citations?
 
 ###Additional Differences?
 
+##References
+
+<b id="F11SCWG">FORCE11 Software Citation Working Group</b> FORCE11 Software Citation Working Group, GitHub repository, https: //github.com/force11/force11-scwg. Accessed: 2016-07-10. [↩](#F11SCWG-footnote)
+
+<b id="F11SCWG-web">Smith et al. 2016a</b> A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
+Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10. [↩](#F11SCWG-web-footnote)
+
+<b id="F11SCWG-PeerJCSpreprint">Smith et al. 2016b</b> A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Preprints 4:e2169v3, 2016. https://doi.org/10.7287/peerj.preprints.2169v3 [↩](#F11SCWG-PeerJCSpreprint-footnote)
