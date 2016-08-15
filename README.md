@@ -8,10 +8,11 @@ Arfon M. Smith
 Additional Authors:
 Add yourself here
 
-This repostory is intended to be used to discuss and document the difference between software and data in the context of citation.
+This repostory is intended to be used to discuss and document the differences between software and data in the context of citation.
 
-It has been created in the process of writing the FORCE11 Software Citation Principles<sup id="F11SCWG-web-footnote">[Smith et al. 2016a](#F11SCWG-web)</sup><sup>,</sup><sup id="F11SCWG-footnote">[FORCE11 Software Citation Working Group](#F11SCWG)</sup>
-and then submitting them to PeerJ Computer Science<sup id="F11SCWG-PeerJCSpreprint-footnote">[Smith et al. 2016b](#F11SCWG-PeerJCSpreprint)</sup>
+It has been created in the process of the FORCE11 Software Citation Working Group<sup id="F11SCWG-footnote">[FORCE11 Software Citation Working Group](#F11SCWG)</sup>
+writing the FORCE11 Software Citation Principles<sup id="F11SCWG-web-footnote">[Smith et al. 2016a](#F11SCWG-web)</sup>,
+and then the editors submitting them to PeerJ Computer Science<sup id="F11SCWG-PeerJCSpreprint-footnote">[Smith et al. 2016b](#F11SCWG-PeerJCSpreprint)</sup>
 and responding to reviewer comments.
 
 We start with the idea that software, while similar to data in terms of not traditionally having been cited in publications, is also different than data.  Software can be considered a type of data, but the converse is not generally true. 
