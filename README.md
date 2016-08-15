@@ -40,7 +40,7 @@ Explanation?
 
 Evidence: Citations?
 
-###Software is updated more frequently that papers or data.
+###Software is updated more frequently than papers or data.
 
 Datasets can of course be frequently updated, but each update likely represents the findings of a new or repeated study.
 
