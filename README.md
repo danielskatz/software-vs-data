@@ -13,9 +13,10 @@ This repostory is intended to be used to discuss and document the difference bet
 It has been created in the process of writing the FORCE11 Software Citation Principles
 [A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
 Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10.
-FORCE11 Software Citation Working Group, GitHub repository, https: //github.com/force11/force11-scwg. Accessed: 2016-07-10.
-A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Preprints 4:e2169v3, 2016. https://doi.org/10.7287/peerj.preprints.2169v3]
-and then submitting them to PeerJ Computer Science and responding to reviewer comments.
+FORCE11 Software Citation Working Group, GitHub repository, https: //github.com/force11/force11-scwg. Accessed: 2016-07-10.]
+and then submitting them to PeerJ Computer Science
+[A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Preprints 4:e2169v3, 2016. https://doi.org/10.7287/peerj.preprints.2169v3]
+and responding to reviewer comments.
 
 We start with the idea that software, while similar to data in terms of not traditionally having been cited in publications, is also different than data.  Software can be considered a type of data, but the converse is not generally true. 
 
