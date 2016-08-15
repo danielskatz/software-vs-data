@@ -1,5 +1,13 @@
 #Software vs Data
 
+Author/Editors:
+Daniel S. Katz,
+Kyle E. Niemeyer,
+Arfon M. Smith
+
+Additional Authors:
+Add yourself here
+
 This repostory is intended to be used to discuss and document the difference between software and data in the context of citation.
 
 It has been created in the process of writing the FORCE11 Software Citation Principles [add cite here] and then submitting them to PeerJ Computer Science and responding to reviewer comments.
@@ -8,7 +16,7 @@ We start with the idea that software, while similar to data in terms of not trad
 
 The remainder of this document gives examples of these differences.
 
-If you want to add a new difference, please do via a pull request.  Similarly, if you want to add a citation or add new explanation, please also do this via a pull request.  If you want to discuss a difference (for example, you don't think it's correct), please open a new issue or discuss via an existing issue.
+If you want to add a new difference, please do via a pull request.  Similarly, if you want to add a citation or add new explanation, please also do this via a pull request.  If you want to discuss a difference (for example, you don't think it's correct), please open a new issue or discuss via an existing issue.  If you do add text in a pull request, also add yourself as an additional author in that same request, following the existing format and keeping the additional author list in alphabetic order by surname. (And add a comma after all authors but the last one.)
 
 ---
 
