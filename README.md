@@ -41,7 +41,8 @@ Evidence: Citations
 In particular, software is generally subject to copyright protection as a creative work, while data is frequently considered outside the domain of copyright as it is comprised of facts about the world (you cannot copyright the 
 height of Mt. Everest.) Major scientific data repositories (e.g. Dryad, FigShare) automatically apply licenses suited to data that may not be suited to software.  
 
-Evidence: Citations?
+Evidence: Can I apply a Creative Commons license to software?<sup id="cc-software-footnote">[Creative Commons](#cc-software)</sup>; Non-software licenses<sup id="choosealicense-footnote">[Choose a License](#choosealicense)</sup>
+
 
 ###Data provides evidence, software provides a tool 
 
@@ -105,9 +106,15 @@ Evidence: Citations?
 
 ##References
 
-<b id="F11SCWG">FORCE11 Software Citation Working Group</b> FORCE11 Software Citation Working Group, GitHub repository, https://github.com/force11/force11-scwg. Accessed: 2016-07-10. [↩](#F11SCWG-footnote)
+[<b id="choosealicense">Choose a License</b>] Choose an open source license, "Non-software licenses," http://choosealicense.com/non-software/ Accessed: 2016-08-16. [↩](#choosealicense-footnote)
 
-<b id="F11SCWG-web">Smith et al. 2016a</b> A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
+[<b id="cc-software">Creative Commons</b>] Creative Commons, FAQ, "Can I apply a Creative Commons license to software?", https://wiki.creativecommons.org/index.php/Frequently_Asked_Questions#Can_I_apply_a_Creative_Commons_license_to_software.3F Accessed: 2016-08-16. [↩](#cc-software-footnote)
+
+[<b id="F11SCWG">FORCE11 Software Citation Working Group</b>] FORCE11 Software Citation Working Group, GitHub repository, https://github.com/force11/force11-scwg. Accessed: 2016-07-10. [↩](#F11SCWG-footnote)
+
+[<b id="F11SCWG-web">Smith et al. 2016a</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
 Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10. [↩](#F11SCWG-web-footnote)
 
-<b id="F11SCWG-PeerJCSpreprint">Smith et al. 2016b</b> A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Preprints 4:e2169v3, 2016. https://doi.org/10.7287/peerj.preprints.2169v3 [↩](#F11SCWG-PeerJCSpreprint-footnote)
+[<b id="F11SCWG-PeerJCSpreprint">Smith et al. 2016b</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Preprints 4:e2169v3, 2016. https://doi.org/10.7287/peerj.preprints.2169v3 [↩](#F11SCWG-PeerJCSpreprint-footnote)
+
+
