@@ -105,9 +105,16 @@ More Explanation?
 
 Evidence: Citations?
 
-###Software is active, data is passive
+###Software is active, data is passive.
 
 A functional way of distinguishing between software and data is to say that software is active, while data is passive. That is, software generally performs a function upon something (e.g. software processes data), while data generally has a function performed upon it (e.g. data is processed by software).
+
+See discussion in https://github.com/danielskatz/software-vs-data/issues/15
+
+More Explanation?
+
+Evidence: Citations?
+
 
 ###Additional Differences?
 
