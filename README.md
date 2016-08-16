@@ -60,6 +60,8 @@ Evidence: Citations?
 
 Datasets can of course be frequently updated, but each update likely represents the findings of a new or repeated study.
 
+See discussion in https://github.com/danielskatz/software-vs-data/issues/6
+
 Perhaps this should be dropped?  See discussion in https://github.com/danielskatz/software-vs-data/issues/8
 
 More explanation?
