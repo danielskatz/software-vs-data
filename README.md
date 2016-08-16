@@ -66,7 +66,7 @@ Evidence: Citations?
 
 ###Software is executable, unlike papers or data.
 
-A commonsense definition of software is that it is "a set of instrtuctions that direct a computer to do a specific task" <sup id="chun2004-footnote">[(Chun, 2004)](#chun2004)</sup>. On the other hand, data is simply a collection of facts or mesurements (real or simulated). Of course, software can be considered data as well, especially if viewed as a collection of facts. However, from the point of view of conducting research with software, the main difference is that softfare is associated with action: knowledge creation, information transformation, visualizaion, etc.  The action can be thought of joining two states of data: a "before" (e.g., input files, parameter settings, unstructured or tacit information) to an "after" state (output files, transformed data, structured knowledge). If we accept the definitions of software and data given at the begining of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of <sup id="matthews2010-footnote">[Matthews et al. (2010)](#matthews2010)</sup>: "we are more interested in what software *does* rather than what software *is*."
+A commonsense definition of software is that it is "a set of instrtuctions that direct a computer to do a specific task" <sup id="chun2004-footnote">[(Chun, 2004)](#chun2004)</sup>. On the other hand, data is simply a collection of facts or mesurements (real or simulated). Of course, software can be considered data as well, especially if viewed as a collection of facts. However, from the point of view of conducting research with software, the main difference is that software is associated with action: knowledge creation, information transformation, visualizaion, etc.  The action can be thought of joining two states of data: a "before" (e.g., input files, parameter settings, unstructured or tacit information) to an "after" state (output files, transformed data, structured knowledge). If we accept the definitions of software and data given at the begining of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of <sup id="matthews2010-footnote">[Matthews et al. (2010)](#matthews2010)</sup>: "we are more interested in what software *does* rather than what software *is*."
 
 
 ###Software suffers from a different type of bit rot than data.
@@ -107,7 +107,7 @@ Evidence: Citations?
 
 [<b id="choosealicense">Choose a License</b>] Choose an open source license, "Non-software licenses," http://choosealicense.com/non-software/ Accessed: 2016-08-16. [↩](#choosealicense-footnote)
 
-[<b id="chun2004">Chun2004</b>] W. H. K. Chun, “On software, or the persistence of visual knowledge,” Grey Room, vol. 18, pp. 26–51, 2004. doi:10.1162/1526381043320741 [↩](#chun2004-footnote)
+[<b id="chun2004">Chun2004</b>] W. H. K. Chun, "On software, or the persistence of visual knowledge," Grey Room, vol. 18, pp. 26–51, 2004. doi:10.1162/1526381043320741 [↩](#chun2004-footnote)
 
 
 [<b id="cc-software">Creative Commons</b>] Creative Commons, FAQ, "Can I apply a Creative Commons license to software?", https://wiki.creativecommons.org/index.php/Frequently_Asked_Questions#Can_I_apply_a_Creative_Commons_license_to_software.3F Accessed: 2016-08-16. [↩](#cc-software-footnote)
