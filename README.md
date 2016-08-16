@@ -111,6 +111,17 @@ More Explanation?
 
 Evidence: Citations?
 
+###Software is active, data is passive.
+
+A functional way of distinguishing between software and data is to say that software is active, while data is passive. That is, software generally performs a function upon something (e.g. software processes data), while data generally has a function performed upon it (e.g. data is processed by software).
+
+See discussion in https://github.com/danielskatz/software-vs-data/issues/15
+
+More Explanation?
+
+Evidence: Citations?
+
+
 ###Additional Differences?
 
 ##References
@@ -118,7 +129,6 @@ Evidence: Citations?
 [<b id="choosealicense">Choose a License</b>] Choose an open source license, "Non-software licenses," http://choosealicense.com/non-software/ Accessed: 2016-08-16. [↩](#choosealicense-footnote)
 
 [<b id="chun2004">Chun2004</b>] W. H. K. Chun, "On software, or the persistence of visual knowledge," Grey Room, vol. 18, pp. 26–51, 2004. doi:10.1162/1526381043320741 [↩](#chun2004-footnote)
-
 
 [<b id="cc-software">Creative Commons</b>] Creative Commons, FAQ, "Can I apply a Creative Commons license to software?", https://wiki.creativecommons.org/index.php/Frequently_Asked_Questions#Can_I_apply_a_Creative_Commons_license_to_software.3F Accessed: 2016-08-16. [↩](#cc-software-footnote)
 
