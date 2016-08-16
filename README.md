@@ -1,6 +1,7 @@
 #Software vs Data
 
 Author/Editors:
+Carl Boettiger,
 Daniel S. Katz,
 Kyle E. Niemeyer,
 Arfon M. Smith
@@ -34,6 +35,17 @@ Evidence: Citations
 ---
 
 ##List of Differences
+
+###Software is a creative work, data a fact
+
+In particular, software is generally subject to copyright protection as a creative work, while data is frequently considered outside the domain of copyright as it is comprised of facts about the world (you cannot copyright the 
+height of Mt. Everest.) Major scientific data repositories (e.g. Dryad, FigShare) automatically apply licenses suited to data that may not be suited to software.  
+
+
+###Data provides evidence, software provides a tool 
+
+Software exists to perform a task, data does not. Data is fundamentally an *emperical* observation about the world, while software is fundamentally a *logical* construct. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same method, data by any researchers seeking evidence about the same fact about the world.
+
 ###Software can be used to express or explain concepts, unlike data.
 
 Explanation?
