@@ -83,6 +83,8 @@ Evidence: Citations?
 
 Explanation?
 
+Under discussion in https://github.com/danielskatz/software-vs-data/issues/9
+
 Evidence: Citations?
 
 ###Software is generally smaller than data, so a number of the storage and preservation constraints on data don’t apply to software.
@@ -94,6 +96,8 @@ Evidence: Citations?
 ###Software teams can be large and multidisciplinary, and with varied roles that overlap and sometimes make contributions ambiguous—some of which can rise to a level equivalent to paper authorship.
 
 Counter-explanation: This is true also for datasets collected by large experiments, like LIGO or at CERN. While those are few compared to all datasets, these are of particular relevance for science, much like software written by large teams compared to group-internal software.
+
+Under discussion in https://github.com/danielskatz/software-vs-data/issues/10
 
 More Explanation?
 
