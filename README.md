@@ -9,7 +9,7 @@ Additional Authors:
 Carl Boettiger,
 
 
-This repostory is intended to be used to discuss and document the differences between software and data in the context of citation.
+This repository is intended to be used to discuss and document the differences between software and data in the context of citation.
 
 It has been created in the process of the FORCE11 Software Citation Working Group<sup id="F11SCWG-footnote">[FORCE11 Software Citation Working Group](#F11SCWG)</sup>
 writing the FORCE11 Software Citation Principles<sup id="F11SCWG-web-footnote">[Smith et al. 2016a](#F11SCWG-web)</sup>,
@@ -20,7 +20,7 @@ We start with the idea that software, while similar to data in terms of not trad
 
 The remainder of this document gives examples of these differences.
 
-If you want to add a new difference, please do via a pull request.  Similarly, if you want to add a citation or add new explanation, please also do this via a pull request.  If you want to discuss a difference (for example, you don't think it's correct), please open a new issue or discuss via an existing issue.  If you do add text in a pull request, also add yourself as an additional author in that same request, following the existing format and keeping the additional author list in alphabetic order by surname. (And add a comma after all authors but the last one.)
+If you want to add a new difference, please do via a pull request.  Similarly, if you want to add a citation or add a new explanation, please also do this via a pull request.  If you want to discuss a difference (for example, you don't think it's correct), please open a new issue or discuss via an existing issue.  If you do add text in a pull request, also add yourself as an additional author in that same request, following the existing format and keeping the additional author list in alphabetic order by surname. (And add a comma after all authors but the last one.)
 
 ---
 
@@ -36,7 +36,7 @@ Evidence: Citations
 
 ##List of Differences
 
-###Software is a creative work, data a fact
+###Software is a creative work, data a fact.
 
 In particular, software is generally subject to copyright protection as a creative work, while data is frequently considered outside the domain of copyright as it is comprised of facts about the world (you cannot copyright the 
 height of Mt. Everest.) Major scientific data repositories (e.g. Dryad, FigShare) automatically apply licenses suited to data that may not be suited to software.  
@@ -44,7 +44,7 @@ height of Mt. Everest.) Major scientific data repositories (e.g. Dryad, FigShare
 Evidence: Can I apply a Creative Commons license to software?<sup id="cc-software-footnote">[Creative Commons](#cc-software)</sup>; Non-software licenses<sup id="choosealicense-footnote">[Choose a License](#choosealicense)</sup>
 
 
-###Data provides evidence, software provides a tool 
+###Data provides evidence, software provides a tool.
 
 Software exists to perform a task, data does not. Data is fundamentally an *emperical* observation about the world, while software is fundamentally a *logical* construct. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same method, data by any researchers seeking evidence about the same fact about the world.
 
