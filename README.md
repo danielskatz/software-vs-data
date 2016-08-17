@@ -9,14 +9,14 @@ Additional Authors:
 Carl Boettiger, Fernando Rios
 
 
-This repository is intended to be used to discuss and document the differences between software and data in the context of citation in the scientific record.
+This repository is intended to be used to discuss and document the differences between software and data in the context of citation in the research record.
 
 It has been created in the process of the FORCE11 Software Citation Working Group<sup id="F11SCWG-footnote">[FORCE11 Software Citation Working Group](#F11SCWG)</sup>
 writing the FORCE11 Software Citation Principles<sup id="F11SCWG-web-footnote">[Smith et al. 2016a](#F11SCWG-web)</sup>,
 and then the editors submitting them to PeerJ Computer Science<sup id="F11SCWG-PeerJCSpreprint-footnote">[Smith et al. 2016b](#F11SCWG-PeerJCSpreprint)</sup>
 and responding to reviewer comments.
 
-We start with the idea that software, while similar to data in terms of not traditionally having been cited in publications, is also different than data. In the context of scientific research, the term "data" usually refers to electronic records of observations made in the course of a scientific study ("raw data") or to information derived from such observations by some form of processing ("processed data"). In the following, we use the term "data" in this specific sense.
+We start with the idea that software, while similar to data in terms of not traditionally having been cited in publications, is also different than data. In the context of research (e.g., in science), the term "data" usually refers to electronic records of observations made in the course of a research study ("raw data") or to information derived from such observations by some form of processing ("processed data"), as well as the output of simulation or modeling software ("simulated data"). In the following, we use the term "data" in this specific sense.
 
 The confusion about the distinction between software and data comes in part from the much wider sense that the term "data" has in computing and information science, where it refers to anything that can be processed by a computer. In that sense, software is just a special kind of data.
 
