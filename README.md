@@ -133,12 +133,24 @@ Evidence: Citations?
 
 The lifetime of software can reach 20 years or more, especially for well-maintained projects. The life of software can end if the task it was supposed to do is not needed anymore, or if another software does it in a better way. Data, on the other hand, often represents the results of an experiment. It might become less interesting with time, but it cannot be replaced as it is connected to one particular experiment at that particular time. In this sense, software is replaceable (by other software), while data is usually not.
 
+A 1995 NRC Report "Preserving Scientific Data on Our Physical Universe"<sup id="NRC-preserving-footnote">[NRC 1995](#NRC-preserving)</sup>
+provides the following recommendations regarding retention criteria and the appraisal process (p. 40):
+"As a general rule, all observational data that are nonredundant,
+useful, and documented well enough for most primary uses should be
+permanently maintained. Laboratory data sets are candidates for
+long-term preservation if there is no realistic chance of repeating
+the experiment, or if the cost and intellectual effort required to
+collect and validate the data were so great that the long-term
+retention is clearly justified. For both observational and
+experimental data, the following retention criteria should be used
+to determine whether a data set should be saved: uniqueness, adequacy
+of documentation (metadata), availability of hardware to read the data
+records, cost of replacement, and evaluation by peer review. Complete
+metadata should define the content, format or representation,
+structure, and context of a data set."
 More Explanation?
 
-Evidence: Citations?
-
-
-Evidence: Citations?
+More Evidence: Citations?
 
 
 ###Additional Differences?
@@ -154,6 +166,8 @@ Evidence: Citations?
 [<b id="F11SCWG">FORCE11 Software Citation Working Group</b>] FORCE11 Software Citation Working Group, GitHub repository, https://github.com/force11/force11-scwg. Accessed: 2016-07-10. [↩](#F11SCWG-footnote)
 
 [<b id="matthews2010">Matthews et al. 2010</b>] B. Matthews, A. Shaon, J. Bicarregui, and C. Jones, “A framework for software preservation,” International Journal of Digital Curation, vol. 5, no. 1, pp. 91–105, 2010. doi:10.2218/ijdc.v5i1.145 [↩](#matthews2010-footnote)
+
+[<b id="NRC-preserving">NRC 1995</b>] National Research Council, Preserving Scientific Data on Our Physical Universe: A New Strategy for Archiving the Nation's Scientific Information Resources, 1995.  http://www.nap.edu/catalog/4871.html  [↩](#NRC-preserving-footnote)
 
 [<b id="F11SCWG-web">Smith et al. 2016a</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
 Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10. [↩](#F11SCWG-web-footnote)
