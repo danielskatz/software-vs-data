@@ -80,6 +80,10 @@ A commonsense definition of software is that it is "a set of instrtuctions that 
 
 Software must be constantly maintained so that it continues to function as both the hardware and software environments that it is used on changes, as developers find and fix bugs, and as user requirements demand new features and capabilities.  On the other hand, bit rot for data is generally thought of as the underlying hardware that holds the bits changing, or software that can interpret the data also needing to be updated.  These types of bit rot also affect software&mdash;the software is actually stored as a set of bits, and these bits must be interpretted, often as ASCII or UNICODE characters&mdash;but software bit rot is generally thought of as a concern of a higher level on top of this.
 
+Under discussion in https://github.com/danielskatz/software-vs-data/issues/12
+
+Perhaps merge with next?
+
 More explanation?
 
 Evidence: Citations?
@@ -89,6 +93,8 @@ Evidence: Citations?
 Explanation?
 
 Under discussion in https://github.com/danielskatz/software-vs-data/issues/9
+
+Perhaps merge with previous?
 
 Evidence: Citations?
 
