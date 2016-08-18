@@ -148,6 +148,7 @@ of documentation (metadata), availability of hardware to read the data
 records, cost of replacement, and evaluation by peer review. Complete
 metadata should define the content, format or representation,
 structure, and context of a data set."
+
 More Explanation?
 
 More Evidence: Citations?
