@@ -6,7 +6,7 @@ Kyle E. Niemeyer,
 Arfon M. Smith
 
 Additional Authors:
-William L. Anderson, Carl Boettiger, Konrad Hinsen, Frank Löffler, Tom Pollard, Fernando Rios
+William L. Anderson, Carl Boettiger, Konrad Hinsen, Mike Hucka, Frank Löffler, Tom Pollard, Fernando Rios
 
 
 This repository is intended to be used to discuss and document the differences between software and data in the context of citation in the research record.
@@ -91,7 +91,7 @@ Evidence: Citations?
 
 ###Software suffers from a different type of bit rot than data.
 
-Software must be constantly maintained so that it continues to function as both the hardware and software environments that it is used on changes, as developers find and fix bugs, and as user requirements demand new features and capabilities.  On the other hand, bit rot for data is generally thought of as the underlying hardware that holds the bits changing, or software that can interpret the data also needing to be updated.  These types of bit rot also affect software&mdash;the software is actually stored as a set of bits, and these bits must be interpretted, often as ASCII or UNICODE characters&mdash;but software bit rot is generally thought of as a concern of a higher level on top of this.
+Software must be constantly maintained so that it continues to function as both the hardware and software environments that it is used on changes, as developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="wikipedia-footnote">[Wikipedia](#wikipedia)</sup> and other times called "bit rot." On the other hand, bit rot for data is generally thought of as the underlying hardware that holds the bits changing, or software that can interpret the data also needing to be updated.  These types of bit rot also affect software&mdash;the software is actually stored as a set of bits, and these bits must be interpretted, often as ASCII or UNICODE characters&mdash;but software bit rot is generally thought of as a concern of a higher level on top of this.
 
 Under discussion in https://github.com/danielskatz/software-vs-data/issues/12
 
@@ -174,4 +174,5 @@ Citation Working Group “Software Citation Principles,” FORCE2016 Website, ht
 
 [<b id="F11SCWG-PeerJCSpreprint">Smith et al. 2016b</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Preprints 4:e2169v3, 2016. https://doi.org/10.7287/peerj.preprints.2169v3 [↩](#F11SCWG-PeerJCSpreprint-footnote)
 
+[<b id="Software-rot">Wikipedia</b>] Wikipedia, “Software Rot”. https://en.wikipedia.org/wiki/Software_rot Accessed: 2016-08-18. [↩](#Wikipedia-footnote)
 
