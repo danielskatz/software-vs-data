@@ -6,7 +6,7 @@ Kyle E. Niemeyer,
 Arfon M. Smith
 
 Additional Authors:
-Carl Boettiger, Konrad Hinsen, Frank Löffler, Fernando Rios
+William L. Anderson, Carl Boettiger, Konrad Hinsen, Frank Löffler, Tom Pollard, Fernando Rios
 
 
 This repository is intended to be used to discuss and document the differences between software and data in the context of citation in the research record.
