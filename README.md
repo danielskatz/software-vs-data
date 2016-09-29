@@ -137,7 +137,7 @@ More Evidence: Citations?
 [<b id="F11SCWG-web">Smith et al. 2016a</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
 Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10. [↩](#F11SCWG-web-footnote)
 
-[<b id="F11SCWG-PeerJCS">Smith et al. 2016b</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ CS 2:e86, 2016. https://doi.org/10.7717/peerj-cs.86 [↩](#F11SCWG-PeerJCS-footnote)
+[<b id="F11SCWG-PeerJCS">Smith et al. 2016b</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Computer Science 2:e86, 2016. https://doi.org/10.7717/peerj-cs.86 [↩](#F11SCWG-PeerJCS-footnote)
 
 [<b id="Software-rot">Wikipedia</b>] Wikipedia, “Software Rot”. https://en.wikipedia.org/wiki/Software_rot Accessed: 2016-08-18. [↩](#Software-rot-footnote)
 
