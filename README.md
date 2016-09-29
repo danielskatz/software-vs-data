@@ -13,7 +13,7 @@ This repository is intended to be used to discuss and document the differences b
 
 It has been created in the process of the FORCE11 Software Citation Working Group<sup id="F11SCWG-footnote">[FORCE11 Software Citation Working Group](#F11SCWG)</sup>
 writing the FORCE11 Software Citation Principles<sup id="F11SCWG-web-footnote">[Smith et al. 2016a](#F11SCWG-web)</sup>,
-and then the editors submitting them to PeerJ Computer Science<sup id="F11SCWG-PeerJCSpreprint-footnote">[Smith et al. 2016b](#F11SCWG-PeerJCSpreprint)</sup>
+and then the editors submitting them to PeerJ Computer Science<sup id="F11SCWG-PeerJCS-footnote">[Smith et al. 2016b](#F11SCWG-PeerJCS)</sup>
 and responding to reviewer comments.
 
 We start with the idea that software, while similar to data in terms of not traditionally having been cited in publications, is also different than data. In the context of research (e.g., in science), the term "data" usually refers to electronic records of observations made in the course of a research study ("raw data") or to information derived from such observations by some form of processing ("processed data"), as well as the output of simulation or modeling software ("simulated data"). In the following, we use the term "data" in this specific sense.
@@ -137,7 +137,7 @@ More Evidence: Citations?
 [<b id="F11SCWG-web">Smith et al. 2016a</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
 Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10. [↩](#F11SCWG-web-footnote)
 
-[<b id="F11SCWG-PeerJCSpreprint">Smith et al. 2016b</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Preprints 4:e2169v3, 2016. https://doi.org/10.7287/peerj.preprints.2169v3 [↩](#F11SCWG-PeerJCSpreprint-footnote)
+[<b id="F11SCWG-PeerJCS">Smith et al. 2016b</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ CS 2:e86, 2016. https://doi.org/10.7717/peerj-cs.86 [↩](#F11SCWG-PeerJCS-footnote)
 
 [<b id="Software-rot">Wikipedia</b>] Wikipedia, “Software Rot”. https://en.wikipedia.org/wiki/Software_rot Accessed: 2016-08-18. [↩](#Software-rot-footnote)
 
