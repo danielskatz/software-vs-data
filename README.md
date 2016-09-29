@@ -93,17 +93,6 @@ Explanation?
 Evidence: Citations?
 
 
-###Software teams can be large and multidisciplinary, and with varied roles that overlap and sometimes make contributions ambiguous—some of which can rise to a level equivalent to paper authorship.
-
-Counter-explanation: This is true also for datasets collected by large experiments, like LIGO or at CERN. While those are few compared to all datasets, these are of particular relevance for science, much like software written by large teams compared to group-internal software.
-
-Under discussion in https://github.com/danielskatz/software-vs-data/issues/10
-
-More Explanation?
-
-Evidence: Citations?
-
-
 ###The lifetime of software is generally not as long as that of data.
 
 The lifetime of software can reach 20 years or more, especially for well-maintained projects. The life of software can end if the task it was supposed to do is not needed anymore, or if another software does it in a better way. Data, on the other hand, often represents the results of an experiment. It might become less interesting with time, but it cannot be replaced as it is connected to one particular experiment at that particular time. In this sense, software is replaceable (by other software), while data is usually not.
