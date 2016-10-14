@@ -45,7 +45,7 @@ A commonsense definition of software is that it is "a set of instructions that d
 
 ###Data provides evidence, software provides a tool.
 
-Software exists to perform a task, data does not. Data is fundamentally an *emperical* observation, while software is fundamentally a *logical* construct. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same method, data by any researchers seeking evidence about the same factd.
+Software exists to perform a task, while data does not. Software is fundamentally a *logical* construct, while data is fundamentally an *emperical* observation. Software can be used to express or explain concepts, unlike data. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same method, data by any researchers seeking evidence about the same factd.
 
 Evidence: Citations?
 
@@ -56,14 +56,6 @@ height of Mt. Everest.) Major scientific data repositories (e.g. Dryad, FigShare
 
 Evidence: Can I apply a Creative Commons license to software?<sup id="cc-software-footnote">[Creative Commons](#cc-software)</sup>; Non-software licenses<sup id="choosealicense-footnote">[Choose a License](#choosealicense)</sup>
 
-
-###Software can be used to express or explain concepts, unlike data.
-
-Explanation?
-
-Possible this can be merged with one of the previous statements
-
-Evidence: Citations?
 
 ###Software is active, data is passive.
 
