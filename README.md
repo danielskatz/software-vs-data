@@ -31,7 +31,9 @@ If you want to add a new difference, please do via a pull request.  Similarly, i
 
 ###Statement
 
-Explanation if needed
+Explanation if needed,
+
+including or followed by:
 
 Evidence: Citations
 
@@ -49,8 +51,6 @@ Of course, software (in form) can be considered data as well, especially if view
 
 Software exists to perform a task, while data does not. Software is fundamentally a *logical* construct, while data is fundamentally an *emperical* observation. Software can be used to express or explain concepts, unlike data. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same method, data by any researchers seeking evidence about the same factd.
 
-Evidence: Citations?
-
 
 ###Software is a creative work, data are facts.
 
@@ -64,10 +64,6 @@ Evidence: Can I apply a Creative Commons license to software?<sup id="cc-softwar
 
 Software must be constantly maintained so that it continues to function as both the hardware and software environments (including software dependencies) that it is used on changes, as developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Wikipedia](#Software-rot)</sup> and other times called "bit rot." On the other hand, bit rot for data is generally thought of as the underlying hardware that holds the bits changing, or software that can interpret the data also needing to be updated.  These types of bit rot also affect software&mdash;the software is actually stored as a set of bits, and these bits must be interpretted, often as ASCII or UNICODE characters&mdash;but software bit rot is generally thought of as a concern of a higher level on top of this.
 
-
-More explanation?
-
-Evidence: Citations?
 
 
 ###The lifetime of software is generally not as long as that of data.
@@ -89,10 +85,6 @@ of documentation (metadata), availability of hardware to read the data
 records, cost of replacement, and evaluation by peer review. Complete
 metadata should define the content, format or representation,
 structure, and context of a data set."
-
-More Explanation?
-
-More Evidence: Citations?
 
 
 ###Additional Differences?
