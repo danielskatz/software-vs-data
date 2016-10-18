@@ -41,7 +41,9 @@ Evidence: Citations
 
 ###Software is executable, data is not.
 
-A commonsense definition of software is that it is "a set of instructions that direct a computer to do a specific task" <sup id="chun2004-footnote">[Chun 2004](#chun2004)</sup>. On the other hand, data is simply a collection of facts or measurements (real or simulated). Of course, software can be considered data as well, especially if viewed as a collection of facts. However, from the point of view of conducting research with software, the main difference is that software is associated with action: knowledge creation, information transformation, visualization, etc.  An action can be thought of joining two states of data: a "before" (e.g., input files, parameter settings, unstructured or tacit information) to an "after" state (e.g., output files, transformed data, structured knowledge). If we accept the definitions of software and data given at the begining of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of <sup id="matthews2010-footnote">[Matthews et al. 2010](#matthews2010)</sup>: "we are more interested in what software *does* rather than what software *is*."
+A commonsense definition of software is that it is "a set of instructions that direct a computer to do a specific task" <sup id="chun2004-footnote">[Chun 2004](#chun2004)</sup>. On the other hand, data is simply a collection of facts or measurements (real or simulated). In other words, software is functionally active, while data is passive. 
+Of course, software (in form) can be considered data as well, especially if viewed as a collection of facts. However, from the point of view of conducting research with software, the main difference is that software is associated with action: knowledge creation, information transformation, visualization, etc.  An action can be thought of a functional transformation between two states of data: a "before" (e.g., input files, parameter settings, unstructured or tacit information) to an "after" state (e.g., output files, transformed data, structured knowledge). That is, software generally performs a function upon something (e.g. software processes data), while data generally has a function performed upon it (e.g. data is processed by software). If we accept the definitions of software and data given at the begining of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of <sup id="matthews2010-footnote">[Matthews et al. 2010](#matthews2010)</sup>: "we are more interested in what software *does* rather than what software *is*."
+
 
 ###Data provides evidence, software provides a tool.
 
@@ -49,23 +51,13 @@ Software exists to perform a task, while data does not. Software is fundamentall
 
 Evidence: Citations?
 
+
 ###Software is a creative work, data are facts.
 
 In particular, software is generally subject to copyright protection as a creative work, while data is frequently considered outside the domain of copyright as it is comprised of facts about the world (you cannot copyright the 
 height of Mt. Everest.) Major scientific data repositories (e.g. Dryad, FigShare) automatically apply licenses suited to data that may not be suited to software.  
 
 Evidence: Can I apply a Creative Commons license to software?<sup id="cc-software-footnote">[Creative Commons](#cc-software)</sup>; Non-software licenses<sup id="choosealicense-footnote">[Choose a License](#choosealicense)</sup>
-
-
-###Software is active, data is passive.
-
-A functional way of distinguishing between software and data is to say that software is active, while data is passive. That is, software generally performs a function upon something (e.g. software processes data), while data generally has a function performed upon it (e.g. data is processed by software).
-
-See discussion in https://github.com/danielskatz/software-vs-data/issues/15
-
-Again, perhaps this can be merged with a previous statement.
-
-More Explanation?
 
 
 ###Software suffers from a different type of bit rot than data:  It is frequently built to use other software, leading to complex dependencies, and these dependent software packages also frequently change.
