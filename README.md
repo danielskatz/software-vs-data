@@ -39,7 +39,7 @@ Evidence: Citations
 
 ##List of Differences
 
-###Software is executable, unlike papers or data.
+###Software is executable, data is not.
 
 A commonsense definition of software is that it is "a set of instructions that direct a computer to do a specific task" <sup id="chun2004-footnote">[Chun 2004](#chun2004)</sup>. On the other hand, data is simply a collection of facts or measurements (real or simulated). Of course, software can be considered data as well, especially if viewed as a collection of facts. However, from the point of view of conducting research with software, the main difference is that software is associated with action: knowledge creation, information transformation, visualization, etc.  An action can be thought of joining two states of data: a "before" (e.g., input files, parameter settings, unstructured or tacit information) to an "after" state (e.g., output files, transformed data, structured knowledge). If we accept the definitions of software and data given at the begining of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of <sup id="matthews2010-footnote">[Matthews et al. 2010](#matthews2010)</sup>: "we are more interested in what software *does* rather than what software *is*."
 
