@@ -78,13 +78,6 @@ More explanation?
 Evidence: Citations?
 
 
-###Software is generally smaller than data, so a number of the storage and preservation constraints on data don’t apply to software.
-
-Explanation?
-
-Evidence: Citations?
-
-
 ###The lifetime of software is generally not as long as that of data.
 
 The lifetime of software can reach 20 years or more, especially for well-maintained projects. The life of software can end if the task it was supposed to do is not needed anymore, or if another software does it in a better way. Data, on the other hand, often represents the results of an experiment. It might become less interesting with time, but it cannot be replaced as it is connected to one particular experiment at that particular time. In this sense, software is replaceable (by other software), while data is usually not.
