@@ -6,7 +6,7 @@ Kyle E. Niemeyer,
 Arfon M. Smith
 
 Additional Authors:
-William L. Anderson, Carl Boettiger, Konrad Hinsen, Mike Hucka, Frank Löffler, Tom Pollard, Fernando Rios
+William L. Anderson, Carl Boettiger, Konrad Hinsen, Mike Hucka, Allen Lee, Frank Löffler, Tom Pollard, Fernando Rios
 
 
 This repository is intended to be used to discuss and document the differences between software and data in the context of citation in the research record.
@@ -43,32 +43,35 @@ Evidence: Citations
 
 ###Software is executable, data is not.
 
-A commonsense definition of software is that it is "a set of instructions that direct a computer to do a specific task" <sup id="chun2004-footnote">[Chun 2004](#chun2004)</sup>. On the other hand, data is simply a collection of facts or measurements (real or simulated). In other words, software is functionally active, while data is passive. 
-Of course, software (in form) can be considered data as well, especially if viewed as a collection of facts. However, from the point of view of conducting research with software, the main difference is that software is associated with action: knowledge creation, information transformation, visualization, etc.  An action can be thought of a functional transformation between two states of data: a "before" (e.g., input files, parameter settings, unstructured or tacit information) to an "after" state (e.g., output files, transformed data, structured knowledge). That is, software generally performs a function upon something (e.g. software processes data), while data generally has a function performed upon it (e.g. data is processed by software). If we accept the definitions of software and data given at the begining of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of <sup id="matthews2010-footnote">[Matthews et al. 2010](#matthews2010)</sup>: "we are more interested in what software *does* rather than what software *is*."
+A commonsense definition of software is that it is "a set of instructions that direct a computer to do a specific task" <sup id="chun2004-footnote">[Chun 2004](#chun2004)</sup>. On the other hand, data is simply a collection of facts or measurements (real or simulated). In other words, software is functionally active, while data is passive. Of course, software (in form) can be considered data as well, especially to functional programmers familiar with LISP and other languages with [homoiconicity](https://en.wikipedia.org/wiki/Homoiconicity). However, from the point of view of conducting research with software, the main difference is that software is associated with action: knowledge creation, information transformation, visualization, etc.  An action can be thought of a functional transformation between two states of data: a "before" (e.g., input files, parameter settings, unstructured or tacit information) to an "after" state (e.g., output files, transformed data, structured knowledge). That is, software generally performs a function upon something (e.g. software processes data), while data generally has a function performed upon it (e.g. data is processed by software). If we accept the definitions of software and data given at the beginning of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of <sup id="matthews2010-footnote">[Matthews et al. 2010](#matthews2010)</sup>: "we are more interested in what software *does* rather than what software *is*."
 
 
 ###Data provides evidence, software provides a tool.
 
-Software exists to perform a task, while data does not. Software is fundamentally a *logical* construct, while data is fundamentally an *emperical* observation. Software can be used to express or explain concepts, unlike data. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same method, data by any researchers seeking evidence about the same factd.
+Software exists to perform a task, while data does not. Software is fundamentally a *logical* construct, while data is fundamentally an *empirical* observation. Software can be used to express or explain processes and concepts, oftentimes with data as input. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same methods, data by any researchers seeking evidence about the same facts.
 
 
-###Software is a creative work, data are facts.
+###Software is a creative work, data are observations.
 
-In particular, software is generally subject to copyright protection as a creative work, while data is frequently considered outside the domain of copyright as it is comprised of facts about the world (you cannot copyright the 
-height of Mt. Everest.) Major scientific data repositories (e.g. Dryad, FigShare) automatically apply licenses suited to data that may not be suited to software.  
+In particular, software is generally subject to copyright protection as a creative work that can continue to evolve over time, while data is frequently considered outside the domain of copyright as it is comprised of _contextual_ facts about the world (you cannot copyright the height of Mt. Everest.) Major scientific data repositories (e.g. [Dryad](http://datadryad.org/), [figshare](https://figshare.com/)) automatically apply licenses suited to data that may not be suited to software.  
 
 Evidence: Can I apply a Creative Commons license to software?<sup id="cc-software-footnote">[Creative Commons](#cc-software)</sup>; Non-software licenses<sup id="choosealicense-footnote">[Choose a License](#choosealicense)</sup>
 
 
 ###Software suffers from a different type of bit rot than data:  It is frequently built to use other software, leading to complex dependencies, and these dependent software packages also frequently change.
 
-Software must be constantly maintained so that it continues to function as both the hardware and software environments (including software dependencies) that it is used on changes, as developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Wikipedia](#Software-rot)</sup> and other times called "bit rot." On the other hand, bit rot for data is generally thought of as the underlying hardware that holds the bits changing, or software that can interpret the data also needing to be updated.  These types of bit rot also affect software&mdash;the software is actually stored as a set of bits, and these bits must be interpretted, often as ASCII or UNICODE characters&mdash;but software bit rot is generally thought of as a concern of a higher level on top of this.
-
+In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Wikipedia](#Software-rot)</sup>. On the other hand, bit rot or data degradation<sup id='data-degradation-footnote'>[Wikipedia](#data-degradation)</sup> is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is just a set of bits stored on a filesystem but software bit rot is generally thought of as a higher level concern than data or file-level bit rot.
 
 
 ###The lifetime of software is generally not as long as that of data.
 
 The lifetime of software can reach 20 years or more, especially for well-maintained projects. The life of software can end if the task it was supposed to do is not needed anymore, or if another software does it in a better way. Data, on the other hand, often represents the results of an experiment. It might become less interesting with time, but it cannot be replaced as it is connected to one particular experiment at that particular time. In this sense, software is replaceable (by other software), while data is usually not.
+
+However, software is increasingly used to model complex systems in the social and life sciences, and to analyze, transform, derive statistical significance, and visualize data (observations from the natural world as well as high dimensional simulation outputs). These computational models and data analyses are important digital artifacts that should also be preserved <sup id='cml-2014-footnote'>[Rollins et al. 2014](#cml-2014)</sup> along with datasets in order to properly verify or reproduce <sup id='peng-2011-footnote'>[Peng 2011](#peng-2011)</sup> published findings. Long-term preservation of the software used in computational science is a wicked problem as outlined in the final report from the _Preserving.exe: Toward a National Strategy for Preservation Software_ 2013 meeting<sup id='preserve-exe-2013-footnote'>[Preserving.exe 2013](#preserve-exe-2013)</sup>. With current technology, best practices to facilitate reproducibility of computational science involve archival of the following in durable, plaintext formats:
+
+1. the software itself, in source code form in a trusted digital repository
+2. structured or unstructured narrative documentation (e.g., the ODD protocol <sup id='odd-protocol-footnote'>[ODD 2013](#odd-protocol-2013)</sup>) specifically covering key components of the software 
+3. descriptive provenance metadata on the software dependencies needed to compile and run the software as well as any input data dependencies
 
 A 1995 NRC Report "Preserving Scientific Data on Our Physical Universe"<sup id="NRC-preserving-footnote">[NRC 1995](#NRC-preserving)</sup>
 provides the following recommendations regarding retention criteria and the appraisal process (p. 40):
@@ -99,9 +102,17 @@ structure, and context of a data set."
 
 [<b id="F11SCWG">FORCE11 Software Citation Working Group</b>] FORCE11 Software Citation Working Group, GitHub repository, https://github.com/force11/force11-scwg. Accessed: 2016-07-10. [↩](#F11SCWG-footnote)
 
+[<b id="odd-protocol-2013">Grimm et al. 2013</b>] Volker Grimm, Gary Polhill, Julia Touza, Documenting Social Simulation Models: The ODD Protocol as a Standard. In _Simulating Social Complexity: A Handbook_, pp. 117-133, 2013. http://dx.doi.org/10.1007/978-3-540-93813-2_7 [↩](#peng-2011-footnote)
+
 [<b id="matthews2010">Matthews et al. 2010</b>] B. Matthews, A. Shaon, J. Bicarregui, and C. Jones, “A framework for software preservation,” International Journal of Digital Curation, vol. 5, no. 1, pp. 91–105, 2010. doi:10.2218/ijdc.v5i1.145 [↩](#matthews2010-footnote)
 
 [<b id="NRC-preserving">NRC 1995</b>] National Research Council, Preserving Scientific Data on Our Physical Universe: A New Strategy for Archiving the Nation's Scientific Information Resources, 1995.  http://www.nap.edu/catalog/4871.html  [↩](#NRC-preserving-footnote)
+
+[<b id="peng-2011">Peng 2014</b>] Roger D. Peng, Reproducible Research in Computational Science, Science, vol 334, issue 6060, pp. 1226-1227, 2011. http://dx.doi.org/10.1126/science.1213847 [↩](#peng-2011-footnote)
+
+[<b id="preserve-exe-2013">Preserving.exe 2013</b>] Library of Congress, Preserving.exe: Toward a National Strategy for Software Preservation, 2013. http://www.digitalpreservation.gov/multimedia/documents/PreservingEXE_report_final101813.pdf [↩](#cml-2014-footnote)
+
+[<b id="cml-2014">Rollins et al. 2014</b>] Nathan D. Rollins, C. Michael Barton, Sean Bergin, Marco A. Janssen, Allen Lee, A Computational Model Library for publishing model documentation and code, Environmental Modelling and Software, vol 61, pp. 59-64, 2014. http://dx.doi.org/10.1016/j.envsoft.2014.06.022 [↩](#cml-2014-footnote)
 
 [<b id="F11SCWG-web">Smith et al. 2016a</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software
 Citation Working Group “Software Citation Principles,” FORCE2016 Website, https://www.force11.org/software-citation-principles, 2016. Accessed: 2016-07-10. [↩](#F11SCWG-web-footnote)
