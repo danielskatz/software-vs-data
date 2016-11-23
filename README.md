@@ -51,7 +51,7 @@ A commonsense definition of software is that it is "a set of instructions that d
 Software exists to perform a task, while data does not. Software is fundamentally a *logical* construct, while data is fundamentally an *empirical* observation. Software can be used to express or explain processes and concepts, oftentimes with data as input. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same methods, data by any researchers seeking evidence about the same facts.
 
 
-###Software is a creative work, data are observations.
+###Software is a creative work, data are facts or observations.
 
 In particular, software is generally subject to copyright protection as a creative work that can continue to evolve over time, while data is frequently considered outside the domain of copyright as it is comprised of _contextual_ facts about the world (you cannot copyright the height of Mt. Everest.) Major scientific data repositories (e.g. [Dryad](http://datadryad.org/), [figshare](https://figshare.com/)) automatically apply licenses suited to data that may not be suited to software.  
 
@@ -60,20 +60,14 @@ Evidence: Can I apply a Creative Commons license to software?<sup id="cc-softwar
 
 ###Software suffers from a different type of bit rot than data:  It is frequently built to use other software, leading to complex dependencies, and these dependent software packages also frequently change.
 
-In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Wikipedia](#Software-rot)</sup>. On the other hand, bit rot or data degradation<sup id='data-degradation-footnote'>[Wikipedia](#data-degradation)</sup> is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is just a set of bits stored on a filesystem but software bit rot is generally thought of as a higher level concern than data or file-level bit rot.
+In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Wikipedia-a](#Software-rot)</sup> and other times called "bit rot." On the other hand, bit rot for data, or data degradation<sup id='data-degradation-footnote'>[Wikipedia-b](#data-degradation)</sup>, is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is actually stored as a set of bits on a filesystem, but software bit rot is generally thought of as a higher level concern than data- or file-level bit rot.
 
 
 ###The lifetime of software is generally not as long as that of data.
 
 The lifetime of software can reach 20 years or more, especially for well-maintained projects. The life of software can end if the task it was supposed to do is not needed anymore, or if another software does it in a better way. Data, on the other hand, often represents the results of an experiment. It might become less interesting with time, but it cannot be replaced as it is connected to one particular experiment at that particular time. In this sense, software is replaceable (by other software), while data is usually not.
 
-However, software is increasingly used to model complex systems in the social and life sciences, and to analyze, transform, derive statistical significance, and visualize data (observations from the natural world as well as high dimensional simulation outputs). These computational models and data analyses are important digital artifacts that should also be preserved <sup id='cml-2014-footnote'>[Rollins et al. 2014](#cml-2014)</sup> along with datasets in order to properly verify or reproduce <sup id='peng-2011-footnote'>[Peng 2011](#peng-2011)</sup> published findings. Long-term preservation of the software used in computational science is a wicked problem as outlined in the final report from the _Preserving.exe: Toward a National Strategy for Preservation Software_ 2013 meeting<sup id='preserve-exe-2013-footnote'>[Preserving.exe 2013](#preserve-exe-2013)</sup>. With current technology, best practices to facilitate reproducibility of computational science involve archival of the following in durable, plaintext formats:
-
-1. the software itself, in source code form in a trusted digital repository
-2. structured or unstructured narrative documentation (e.g., the ODD protocol <sup id='odd-protocol-footnote'>[ODD 2013](#odd-protocol-2013)</sup>) specifically covering key components of the software 
-3. descriptive provenance metadata on the software dependencies needed to compile and run the software as well as any input data dependencies
-
-A 1995 NRC Report "Preserving Scientific Data on Our Physical Universe"<sup id="NRC-preserving-footnote">[NRC 1995](#NRC-preserving)</sup>
+A 1995 NRC Report _Preserving Scientific Data on Our Physical Universe_<sup id="NRC-preserving-footnote">[NRC 1995](#NRC-preserving)</sup>
 provides the following recommendations regarding retention criteria and the appraisal process (p. 40):
 "As a general rule, all observational data that are nonredundant,
 useful, and documented well enough for most primary uses should be
@@ -89,6 +83,13 @@ records, cost of replacement, and evaluation by peer review. Complete
 metadata should define the content, format or representation,
 structure, and context of a data set."
 
+While software is often replaced by newer software, computational models and data analyses can be important digital artifacts that should be preserved<sup id='cml-2014-footnote'>[Rollins et al. 2014](#cml-2014)</sup> along with datasets in order to properly verify or reproduce<sup id='peng-2011-footnote'>[Peng 2011](#peng-2011)</sup> published findings. Long-term preservation of the software used in computational science is a wicked problem as outlined in the final report from the _Preserving.exe: Toward a National Strategy for Preservation Software_ 2013 meeting<sup id='preserve-exe-2013-footnote'>[Preserving.exe 2013](#preserve-exe-2013)</sup>. At that time, best practices to facilitate reproducibility of computational science involve archiving of the following, in durable, plaintext formats:
+
+1. the software itself, in source code form in a trusted digital repository
+2. structured or unstructured narrative documentation (e.g., the ODD protocol <sup id='odd-protocol-footnote'>[ODD 2013](#odd-protocol-2013)</sup>) specifically covering key components of the software 
+3. descriptive provenance metadata on the software dependencies needed to compile and run the software as well as any input data dependencies
+
+though these practices may change as virtualization and containerization become more common.
 
 ###Additional Differences?
 
@@ -119,5 +120,7 @@ Citation Working Group “Software Citation Principles,” FORCE2016 Website, ht
 
 [<b id="F11SCWG-PeerJCS">Smith et al. 2016b</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Computer Science 2:e86, 2016. https://doi.org/10.7717/peerj-cs.86 [↩](#F11SCWG-PeerJCS-footnote)
 
-[<b id="Software-rot">Wikipedia</b>] Wikipedia, “Software Rot”. https://en.wikipedia.org/wiki/Software_rot Accessed: 2016-08-18. [↩](#Software-rot-footnote)
+[<b id="Software-rot">Wikipedia-a</b>] Wikipedia, “Software Rot”. https://en.wikipedia.org/wiki/Software_rot Accessed: 2016-08-18. [↩](#Software-rot-footnote)
+
+[<b id="data-degradation">Wikipedia-b</b>] Wikipedia, “Data degradation”. https://en.wikipedia.org/wiki/Data_degradation Accessed: 2016-11-23. [↩](#data-degradation-footnote)
 
