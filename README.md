@@ -109,7 +109,7 @@ though these practices may change as virtualization and containerization become 
 
 [<b id="NRC-preserving">NRC 1995</b>] National Research Council, Preserving Scientific Data on Our Physical Universe: A New Strategy for Archiving the Nation's Scientific Information Resources, 1995.  http://www.nap.edu/catalog/4871.html  [↩](#NRC-preserving-footnote)
 
-[<b id="peng-2011">Peng 2014</b>] Roger D. Peng, Reproducible Research in Computational Science, Science, vol 334, issue 6060, pp. 1226-1227, 2011. http://dx.doi.org/10.1126/science.1213847 [↩](#peng-2011-footnote)
+[<b id="peng-2011">Peng 2011</b>] Roger D. Peng, Reproducible Research in Computational Science, Science, vol 334, issue 6060, pp. 1226-1227, 2011. http://dx.doi.org/10.1126/science.1213847 [↩](#peng-2011-footnote)
 
 [<b id="preserve-exe-2013">Preserving.exe 2013</b>] Library of Congress, Preserving.exe: Toward a National Strategy for Software Preservation, 2013. http://www.digitalpreservation.gov/multimedia/documents/PreservingEXE_report_final101813.pdf [↩](#cml-2014-footnote)
 
