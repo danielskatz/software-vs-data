@@ -1,0 +1,115 @@
+%% Submissions for peer-review must enable line-numbering 
+%% using the lineno option in the \documentclass command.
+%%
+%% Preprints and camera-ready submissions do not need 
+%% line numbers, and should have this option removed.
+%%
+%% Please note that the line numbering option requires
+%% version 1.1 or newer of the wlpeerj.cls file, and
+%% the corresponding author info requires v1.2
+
+% \documentclass[fleqn,10pt,lineno]{wlpeerj} % for journal submissions
+\documentclass[fleqn,10pt]{wlpeerj} % for preprint submissions
+
+\usepackage{hyperref}
+
+\title{Software vs. data in the context of citation}
+
+\author[1]{Daniel S. Katz}
+\author[2]{Kyle E. Niemeyer}
+\author[3]{Arfon M. Smith}
+\author[4]{William L.~Anderson}
+\author[5]{Carl Boettiger}
+\author[6]{Konrad Hinsen}
+\author[7]{Rob Hooft}
+\author[8]{Mike Hucka}
+\author[9]{Allen Lee}
+\author[10]{Frank L\"offler}
+\author[11]{Tom Pollard}
+\author[12]{Fernando Rios}
+\affil[1]{National Center for Supercomputing Applications \& Electrical and Computer Engineering Department \& School of Information Sciences, University of Illinois Urbana-Champaign, Urbana, Illinois; d.katz@ieee.org; ORCID: 0000-0001-5934-7525}
+\affil[2]{Address of second author}
+\affil[3]{Address of 3rd author}
+\affil[4]{Address of 4th author}
+\affil[5]{Address of 5th author}
+\affil[6]{Address of 6th author}
+\affil[7]{Address of 7th author}
+\affil[8]{Address of 8th author}
+\affil[9]{Center for Behavior, Institutions \& the Environment, Biosocial Complexity Initiative, Arizona State University, Tempe, Arizona; allen.lee@asu.edu; ORCID: 0000-0002-6523-6079}
+\affil[10]{Address of 10th author}
+\affil[11]{Address of 11th author}
+\affil[12]{Address of 12th author}
+\corrauthor[1]{Daniel S. Katz}{d.katz@ieee.org}
+
+
+% \keywords{Keyword1, Keyword2, Keyword3}
+
+\begin{abstract}
+Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text. Dummy abstract text.
+\end{abstract}
+
+\begin{document}
+
+\flushbottom
+\maketitle
+\thispagestyle{empty}
+
+\section*{Introduction}
+
+This preprint is a snapshot of the GitHub repository~\citep{this-repo}.  The repository is intended to be used to discuss and document the differences between software and data in the context of citation in the research record.  This preprint allows the current state of this work to be cited.
+
+The repository was created as part of the FORCE11 Software Citation Working Group~\citep{F11-SCWG-repo} writing the FORCE11 Software Citation Principles~\citep{SWCP-web}, and then the editors submitting them to PeerJ Computer Science~\citep{SWCP} and responding to reviewer comments.
+
+We start with the idea that software, while similar to data in terms of not traditionally having been cited in publications, is also different than data. In the context of research (e.g., in science), the term ``data'' usually refers to electronic records of observations made in the course of a research study (``raw data'') or to information derived from such observations by some form of processing (``processed data''), as well as the output of simulation or modeling software (``simulated data''). In the following, we use the term "data" in this specific sense.
+
+The confusion about the distinction between software and data comes in part from the much wider sense that the term "data" has in computing and information science, where it refers to anything that can be processed by a computer. In that sense, software is just a special kind of data.
+
+The remainder of this document gives examples of these differences.
+
+If you want to add a new difference, please do via a pull request in the repository~\citep{this-repo}. Similarly, if you want to add a citation or add a new explanation, please also do this via a pull request. If you want to discuss a difference (for example, you don't think it's correct), please open a new issue or discuss via an existing issue, again in the repository~\citep{this-repo}. If you do add text in a pull request, also add yourself as an additional author in that same request. Once there are a significant set of changes, this preprint will be updated.
+
+The format of this document is a series of statements (as subsections), each with an explanation, including or followed by evidence in the form of citations.
+
+
+\section*{List of Differences}
+\label{sec:differences}
+
+\subsection*{Software is executable, data is not}
+
+A commonsense definition of software is that it is ``a set of instructions that direct a computer to do a specific task~\citep{Chun2004}. On the other hand, data is simply a collection of facts or measurements (real or simulated). In other words, software is functionally active, while data is passive. Of course, software (in form) can be considered data as well, especially to functional programmers familiar with LISP and other languages with homoiconicity~\citep{wiki-homoiconicity}. However, from the point of view of conducting research with software, the main difference is that software is associated with action: knowledge creation, information transformation, visualization, etc. An action can be thought of a functional transformation between two states of data: a ``before'' (e.g., input files, parameter settings, unstructured or tacit information) to an ``after'' state (e.g., output files, transformed data, structured knowledge). That is, software generally performs a function upon something (e.g., software processes data), while data generally has a function performed upon it (e.g., data is processed by software). If we accept the definitions of software and data given at the beginning of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of \cite{Matthews2010}: "we are more interested in what software does rather than what software is."
+
+\subsection*{Data provides evidence, software provides a tool}
+
+Software exists to perform a task, while data does not. Software is fundamentally a logical construct, while data is fundamentally an empirical observation. Software can be used to express or explain processes and concepts, oftentimes with data as input. These differences have important consequences for how each may be re-used in future: software may be used by any researchers seeking to apply the same methods, data by any researchers seeking evidence about the same facts.
+
+\subsection*{Software is a creative work, data are facts or observations}
+
+In particular, software is generally subject to copyright protection as a creative work that can continue to evolve over time, while data is frequently considered outside the domain of copyright as it is comprised of contextual facts about the world (you cannot copyright the height of Mt. Everest.) Major scientific data repositories (e.g. Dryad, figshare) automatically apply licenses suited to data that may not be suited to software.
+
+Evidence: Can I apply a Creative Commons license to software?~\citep{CC-license}; Non-software licenses~\citep{choose-a-license}
+
+\subsection*{Software suffers from a different type of bit rot than data: It is frequently built to use other software, leading to complex dependencies, and these dependent software packages also frequently change}
+
+In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities. This is sometimes called ``software rot''~\citep{wiki-software-rot} and other times called ``bit rot.'' On the other hand, bit rot for data, or data degradation~\citep{wiki-data-degredation}, is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is actually stored as a set of bits on a filesystem, but software bit rot is generally thought of as a higher level concern than data- or file-level bit rot.
+
+\subsection*{The lifetime of software is generally not as long as that of data}
+
+The lifetime of software can reach 20 years or more, especially for well-maintained projects. The life of software can end if the task it was supposed to do is not needed anymore, or if another software does it in a better way. Data, on the other hand, often represents the results of an experiment. It might become less interesting with time, but it cannot be replaced as it is connected to one particular experiment at that particular time. In this sense, software is replaceable (by other software), while data is usually not.
+
+A 1995 NRC Report Preserving Scientific Data on Our Physical Universe~\citep{NRC1995} provides the following recommendations regarding retention criteria and the appraisal process (p. 40): ``As a general rule, all observational data that are nonredundant, useful, and documented well enough for most primary uses should be permanently maintained. Laboratory data sets are candidates for long-term preservation if there is no realistic chance of repeating the experiment, or if the cost and intellectual effort required to collect and validate the data were so great that the long-term retention is clearly justified. For both observational and experimental data, the following retention criteria should be used to determine whether a data set should be saved: uniqueness, adequacy of documentation (metadata), availability of hardware to read the data records, cost of replacement, and evaluation by peer review. Complete metadata should define the content, format or representation, structure, and context of a data set.''
+
+While software is often replaced by newer software, computational models and data analyses can be important digital artifacts that should be preserved~\citep{rollins2014} along with datasets in order to properly verify or reproduce~\citep{Peng2011} published findings. Long-term preservation of the software used in computational science is a wicked problem as outlined in the final report from the Preserving.exe: Toward a National Strategy for Preservation Software 2013 meeting~\citep{Preserving.exe}. At that time, best practices to facilitate reproducibility of computational science involve archiving of the following, in durable, plaintext formats:
+\begin{enumerate}
+\item the software itself, in source code form in a trusted digital repository
+\item structured or unstructured narrative documentation (e.g., the ODD protocol~\citep{Grimm2013}) specifically covering key components of the software
+\item descriptive provenance metadata on the software dependencies needed to compile and run the software as well as any input data dependencies
+\end{enumerate}
+though these practices may change as virtualization and containerization become more common.
+
+\section*{Acknowledgments}
+
+????
+
+\bibliography{preprint}
+
+\end{document}
