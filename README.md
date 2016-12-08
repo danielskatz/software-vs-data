@@ -51,9 +51,9 @@ A commonsense definition of software is that it is "a set of instructions that d
 Software exists to perform a task, while data does not. Software is fundamentally a *logical* construct, while data is fundamentally an *empirical* observation. Software can be used to express or explain processes and concepts, oftentimes with data as input. These differences have important consequences for how each may be re-used in the future: software may be used by any researchers seeking to apply the same methods, data by any researchers seeking evidence about the same facts.
 
 
-###Software is a creative work, data are facts or observations.
+###Software is a creative work, scientific data are facts or observations.
 
-In particular, software is generally subject to copyright protection as a creative work that can continue to evolve over time, while data is frequently considered outside the domain of copyright as it is comprised of _contextual_ facts about the world (you cannot copyright the height of Mt. Everest.) Major scientific data repositories (e.g. [Dryad](http://datadryad.org/), [figshare](https://figshare.com/)) automatically apply licenses suited to data that may not be suited to software.  
+In particular, software is generally subject to copyright protection as a creative work that can continue to evolve over time, while scientific data is frequently considered outside the domain of copyright as it is comprised of _contextual_ facts about the world (you cannot copyright the height of Mt. Everest.) Major scientific data repositories (e.g. [Dryad](http://datadryad.org/), [figshare](https://figshare.com/)) automatically apply licenses suited to data that may not be suited to software.  
 
 Evidence: Can I apply a Creative Commons license to software?<sup id="cc-software-footnote">[Creative Commons](#cc-software)</sup>; Non-software licenses<sup id="choosealicense-footnote">[Choose a License](#choosealicense)</sup>
 
