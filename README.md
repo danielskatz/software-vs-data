@@ -1,5 +1,11 @@
 #Software vs Data
 
+
+> The version of this document of 9 December 2016 has been published as:
+>
+> Katz DS, Niemeyer KE, Smith AM, Anderson WL, Boettiger C, Hinsen K, Hooft R, Hucka M, Lee A, Löffler F, Pollard T, Rios F. (2016) Software vs. data in the context of citation. PeerJ Preprints 4:e2630v1 https://doi.org/10.7287/peerj.preprints.2630v1
+
+
 Author/Editors:
 Daniel S. Katz,
 Kyle E. Niemeyer,
