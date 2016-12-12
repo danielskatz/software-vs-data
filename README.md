@@ -128,7 +128,7 @@ Citation Working Group “Software Citation Principles,” FORCE2016 Website, ht
 
 [<b id="data-degradation">Wikipedia-a</b>] Wikipedia, “Data degradation”. https://en.wikipedia.org/wiki/Data_degradation Accessed: 2016-11-23. [↩](#data-degradation-footnote)
 
-[<b id="homoiconicity">Wikipedia-b</b>] Wikipedia, “Homoiconicity”. https://en.wikipedia.org/wiki/Homoiconicity Accessed: 2016-11-23. [↩](#homoiconicity-footnote)
+[<b id="homoiconicity">Kay. 1969</b>] Kay, A. C. The Reactive Engine. The University of Utah, 1969. [↩](#homoiconicity-footnote)
 
 [<b id="Software-rot">Wikipedia-c</b>] Wikipedia, “Software Rot”. https://en.wikipedia.org/wiki/Software_rot Accessed: 2016-08-18. [↩](#Software-rot-footnote)
 
