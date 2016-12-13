@@ -66,7 +66,7 @@ Evidence: Can I apply a Creative Commons license to software?<sup id="cc-softwar
 
 ###Software suffers from a different type of bit rot than data:  It is frequently built to use other software, leading to complex dependencies, and these dependent software packages also frequently change.
 
-In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Wikipedia-c](#Software-rot)</sup> and other times called "bit rot." On the other hand, bit rot for data, or data degradation<sup id='data-degradation-footnote'>[Wikipedia-a](#data-degradation)</sup>, is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is actually stored as a set of bits on a filesystem, but software bit rot is generally thought of as a higher level concern than data- or file-level bit rot.
+In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Raymond 1996](#Software-rot)</sup> and other times called "bit rot." On the other hand, bit rot for data, or data degradation<sup id='data-degradation-footnote'>[Wikipedia-a](#data-degradation)</sup>, is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is actually stored as a set of bits on a filesystem, but software bit rot is generally thought of as a higher level concern than data- or file-level bit rot.
 
 
 ###The lifetime of software is generally not as long as that of data.
@@ -130,5 +130,6 @@ Citation Working Group “Software Citation Principles,” FORCE2016 Website, ht
 
 [<b id="homoiconicity">Kay 1969</b>] Kay, A. C. The Reactive Engine. The University of Utah, 1969. [↩](#homoiconicity-footnote)
 
-[<b id="Software-rot">Wikipedia-c</b>] Wikipedia, “Software Rot”. https://en.wikipedia.org/wiki/Software_rot Accessed: 2016-08-18. [↩](#Software-rot-footnote)
+[<b id="Software-rot">Raymond 1996</b>] Raymond, Eric S. The new hacker's dictionary. MIT Press, 1996.
+ [↩](#Software-rot-footnote)
 
