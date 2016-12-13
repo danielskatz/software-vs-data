@@ -12,7 +12,7 @@ Kyle E. Niemeyer,
 Arfon M. Smith
 
 Additional Authors:
-William L. Anderson, Carl Boettiger, Konrad Hinsen, Rob Hooft, Mike Hucka, Allen Lee, Frank Löffler, Tom Pollard, Fernando Rios
+William L. Anderson, Carl Boettiger, Konrad Hinsen, Rob Hooft, Mike Hucka, Allen Lee, Frank Löffler, Tom Pollard, Bernie Randles, Fernando Rios
 
 
 This repository is intended to be used to discuss and document the differences between software and data in the context of citation in the research record.
@@ -66,7 +66,7 @@ Evidence: Can I apply a Creative Commons license to software?<sup id="cc-softwar
 
 ###Software suffers from a different type of bit rot than data:  It is frequently built to use other software, leading to complex dependencies, and these dependent software packages also frequently change.
 
-In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Raymond 1996](#Software-rot)</sup> and other times called "bit rot." On the other hand, bit rot for data, or data degradation<sup id='data-degradation-footnote'>[Wikipedia-a](#data-degradation)</sup>, is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is actually stored as a set of bits on a filesystem, but software bit rot is generally thought of as a higher level concern than data- or file-level bit rot.
+In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Raymond 1996](#Software-rot)</sup> and other times called "bit rot." On the other hand, bit rot for data, or data degradation<sup id='data-degradation-footnote'>[Wikipedia](#data-degradation)</sup>, is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is actually stored as a set of bits on a filesystem, but software bit rot is generally thought of as a higher level concern than data- or file-level bit rot.
 
 
 ###The lifetime of software is generally not as long as that of data.
@@ -126,10 +126,10 @@ Citation Working Group “Software Citation Principles,” FORCE2016 Website, ht
 
 [<b id="F11SCWG-PeerJCS">Smith et al. 2016b</b>] A. M. Smith, D. S. Katz, K. E. Niemeyer, and FORCE11 Software Citation Working Group, “Software Citation Principles,” PeerJ Computer Science 2:e86, 2016. https://doi.org/10.7717/peerj-cs.86 [↩](#F11SCWG-PeerJCS-footnote)
 
-[<b id="data-degradation">Wikipedia-a</b>] Wikipedia, “Data degradation”. https://en.wikipedia.org/wiki/Data_degradation Accessed: 2016-11-23. [↩](#data-degradation-footnote)
+[<b id="data-degradation">Wikipedia</b>] Wikipedia, “Data degradation”. https://en.wikipedia.org/wiki/Data_degradation Accessed: 2016-11-23. [↩](#data-degradation-footnote)
 
-[<b id="homoiconicity">Kay 1969</b>] Kay, A. C. The Reactive Engine. The University of Utah, 1969. [↩](#homoiconicity-footnote)
+[<b id="homoiconicity">Kay 1969</b>] Kay, A. C. The Reactive Engine. The University of Utah, AAI7003806, 1969. [↩](#homoiconicity-footnote)
 
-[<b id="Software-rot">Raymond 1996</b>] Raymond, Eric S. The new hacker's dictionary. MIT Press, 1996.
+[<b id="Software-rot">Raymond 1996</b>] Raymond, Eric S. The New Hacker's Dictionary. MIT Press, 1996.
  [↩](#Software-rot-footnote)
 
