@@ -1,4 +1,4 @@
-#Software vs Data
+# Software vs Data
 
 
 > The version of this document of 9 December 2016 has been published as:
@@ -33,9 +33,9 @@ If you want to add a new difference, please do via a pull request.  Similarly, i
 
 ---
 
-##Format of this document:
+## Format of this document:
 
-###Statement
+### Statement
 
 Explanation if needed,
 
@@ -45,31 +45,31 @@ Evidence: Citations
 
 ---
 
-##List of Differences
+## List of Differences
 
-###Software is executable, data is not.
+### Software is executable, data is not.
 
 A commonsense definition of software is that it is "a set of instructions that direct a computer to do a specific task"<sup id="chun2004-footnote">[Chun 2004](#chun2004)</sup>. On the other hand, data is simply a collection of facts or measurements (real or simulated). In other words, software is functionally active, while data is passive. Of course, software (in form) can be considered data as well, especially to functional programmers familiar with LISP and other languages with homoiconicity<sup id="homoiconicity-footnote">[Kay 1969](#homoiconicity)</sup>. However, from the point of view of conducting research with software, the main difference is that software is associated with action: knowledge creation, information transformation, visualization, etc.  An action can be thought of a functional transformation between two states of data: a "before" (e.g., input files, parameter settings, unstructured or tacit information) to an "after" state (e.g., output files, transformed data, structured knowledge). That is, software generally performs a function upon something (e.g., software processes data), while data generally has a function performed upon it (e.g., data is processed by software). If we accept the definitions of software and data given at the beginning of this section, then (at least in scientific research), the difference between data and software can be summarized by the statement of <sup id="matthews2010-footnote">[Matthews et al. 2010](#matthews2010)</sup>: "we are more interested in what software *does* rather than what software *is*."
 
 
-###Data provides evidence, software provides a tool.
+### Data provides evidence, software provides a tool.
 
 Software exists to perform a task, while data does not. Software is fundamentally a *logical* construct, while data is fundamentally an *empirical* observation. Software can be used to express or explain processes and concepts, oftentimes with data as input. These differences have important consequences for how each may be re-used in the future: software may be used by any researchers seeking to apply the same methods, data by any researchers seeking evidence about the same facts.
 
 
-###Software is a creative work, scientific data are facts or observations.
+### Software is a creative work, scientific data are facts or observations.
 
 In particular, software is generally subject to copyright protection as a creative work that can continue to evolve over time, while scientific data is frequently considered outside the domain of copyright as it is comprised of _contextual_ facts about the world (you cannot copyright the height of Mt. Everest.) Major scientific data repositories (e.g. [Dryad](http://datadryad.org/), [figshare](https://figshare.com/)) automatically apply licenses suited to data that may not be suited to software.  
 
 Evidence: Can I apply a Creative Commons license to software?<sup id="cc-software-footnote">[Creative Commons](#cc-software)</sup>; Non-software licenses<sup id="choosealicense-footnote">[Choose a License](#choosealicense)</sup>
 
 
-###Software suffers from a different type of bit rot than data:  It is frequently built to use other software, leading to complex dependencies, and these dependent software packages also frequently change.
+### Software suffers from a different type of bit rot than data:  It is frequently built to use other software, leading to complex dependencies, and these dependent software packages also frequently change.
 
 In general, software must be constantly maintained and updated in order to continue to function as both the hardware and software environments on which it depends change. Operating systems, software and system libraries, programming language toolchains and other compile-time and run-time dependencies all evolve as their respective maintainers and developers find and fix bugs, and as user requirements demand new features and capabilities.  This is sometimes called "software rot"<sup id="Software-rot-footnote">[Raymond 1996](#Software-rot)</sup> and other times called "bit rot." On the other hand, bit rot for data, or data degradation<sup id='data-degradation-footnote'>[Wikipedia](#data-degradation)</sup>, is generally thought of as changes in the underlying hardware or storage media that holds the bits, or changes in the software capable of interpreting the data. This definition of bit rot also affects software since software is actually stored as a set of bits on a filesystem, but software bit rot is generally thought of as a higher level concern than data- or file-level bit rot.
 
 
-###The lifetime of software is generally not as long as that of data.
+### The lifetime of software is generally not as long as that of data.
 
 The lifetime of software can reach 20 years or more, especially for well-maintained projects. The life of software can end if the task it was supposed to do is not needed anymore, or if another software does it in a better way. Data, on the other hand, often represents the results of an experiment. It might become less interesting with time, but it cannot be replaced as it is connected to one particular experiment at that particular time. In this sense, software is replaceable (by other software), while data is usually not.
 
@@ -97,9 +97,9 @@ While software is often replaced by newer software, computational models and dat
 
 though these practices may change as virtualization and containerization become more common.
 
-###Additional Differences?
+### Additional Differences?
 
-##References
+## References
 
 [<b id="choosealicense">Choose a License</b>] Choose an open source license, "Non-software licenses," http://choosealicense.com/non-software/ Accessed: 2016-08-16. [↩](#choosealicense-footnote)
 
